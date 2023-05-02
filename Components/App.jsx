@@ -22,14 +22,10 @@ const App = () => {
     ]
     })
   return(
-    <div className=''>
-    <div className='rotate-90 my-[400px]'> 
-    <BarChart chartData={wine}/>
-    </div>
-    <div>
-        <LineChart chartData={ash}/>
     
-  </div>
+    <div> 
+    <BarChart chartData={wine}/>
+    <LineChart chartData={ash}/>
     </div>
   )}
 
